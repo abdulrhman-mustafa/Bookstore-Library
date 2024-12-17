@@ -1,0 +1,869 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript,book,Book,BookStore, book store,library,it,AI,programming Book">
+    <meta name="description" content="Welcome to our online bookstore! Discover a world of knowledge and stories with our carefully curated collection of books. Whether you're into fiction, self-development, or tech, we’ve got something for everyone. Browse easily, find your next favorite read, and enjoy a seamless shopping experience. Happy reading!">
+    <title>Library</title>
+    <link rel="icon" href="imgs/stack-of-books.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <button id="btn-scroll">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Start Header-Top -->
+    <div class="header-top">
+        <div class="container">
+            <!-- اللوجو  -->
+            <div class="logo">
+                <!-- <a href="#"><img src="imgs/it2.png" alt=""></a> -->
+                <a href="#">IT <span>Library</span></a>
+            </div>
+            <!-- علامة السيرش اللي في النص -->
+            <form>
+                <input class="input" type="search" placeholder="Search For Mora Than 10,000 Books">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <!-- infor ===> information -->
+            <div class="infor">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    +980-34984089</a>
+                
+                <a href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    itlibrary@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Header-Top -->
+    <!-- Start Header-bottom -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container"> <!-- boxed -->
+        <a class="navbar-brand" href="#">
+        <img src="imgs/stack-of-books.png" alt="">
+    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#books">Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="cart ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="like ps-1 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <a class="btn btn-primary rounded-pill main-btn" href="#contact">Login</a>
+        </div>
+    </div>
+    </nav>
+    <!-- End Header-bottom -->
+    <!-- Start Home -->
+    <div class="home" id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="intro-text" data-aos="zoom-in">
+                <h1><span>IT</span> Library</h1>
+                <p>IT is a comprehensive platform offering a wide range of programming books,designed to help developers learn.</p>
+                <a href="#contact" class="btn">Contact <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Home -->
+    <!-- Start Section -->
+    <div class="section">
+        <div class="container">
+            <div class="box" data-aos="fade-right">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>IT</h3>
+            </div>
+            <div class="box"  data-aos="fade-down">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h3>Web</h3>
+            </div>
+            <div class="box"  data-aos="fade-up">
+                <i class="fa-solid fa-book"></i>
+                <h3>AI</h3>
+            </div>
+            <div class="box"  data-aos="fade-left">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Embeded</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Section -->
+    <!-- Start About -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="text" data-aos="fade-right">
+                <h1>Welcome To <span> IT </span>Library</h1>
+                <p>IT is your go-to destination for top-quality programming books. We provide a curated selection of resources to help developers at all levels enhance their skills and stay ahead in the tech world.</p>
+                <a href="#services" class="btn">Services</a>
+            </div>
+            <div class="image" data-aos="fade-left">
+                <img src="imgs/about.jpg" alt="about">
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+        <div class="text"data-aos="fade-up">
+            <h2>Our <span>Services</span></h2>
+        </div>
+        <div class="container">
+            <div class="box-holder">
+                <div class="box"  data-aos="fade-right">
+                    <img src="imgs/ser1.png" alt="s1">
+                    <h2>Book Sales</h2>
+                    <p>Physical and digital books (PDF/EPUB),Local and international shipping.</p>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <img src="imgs/ser2.png" alt="s2">
+                    <h2>Subscription Plans</h2>
+                    <p>Unlimited access to a curated collection of e-books for a monthly fee.</p>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <img src="imgs/ser3.png" alt="s3">
+                    <h2>Workshops</h2>
+                    <p>Training sessions or workshops based on book content.</p>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <img src="imgs/ser4.png" alt="s1">
+                    <h2>Translation Services</h2>
+                    <p>Providing translated versions of essential programming books.</p>
+                </div>
+                <div class="box" data-aos="fade-down">
+                    <img src="imgs/ser5.png" alt="s1">
+                    <h2>Reviews and Ratings</h2>
+                    <p>A platform for readers to review and rate books to enhance the shopping experience.</p>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <img src="imgs/ser6.png" alt="s1">
+                    <h2>Discounts</h2>
+                    <p>Special offers or discounts on bestselling titles.</p>
+                </div>
+            </div>
+            <!-- <div class="btn">
+                <a href="#" class="read">Read More</a>
+            </div> -->
+        </div>
+    </div>
+    <!-- End Servcies -->
+    <!-- Start Books -->
+    <div class="books" id="books">
+        <div class="container">
+            <div class="text" data-aos="fade-down">
+                <h1>Books <span>List</span></h1>
+                <a href="#" class="btn">Buy Now<i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+            <div class="box-holder">
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/one.png" alt="book1">
+                    </div>
+                    <div class="content">
+                        <h3>C++ Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$18.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-down">
+                    <div class="image">
+                        <img src="imgs/two.png" alt="book2">
+                    </div>
+                    <div class="content">
+                        <h3>AI Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$20.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="image">
+                        <img src="imgs/three.png" alt="book3">
+                    </div>
+                    <div class="content">
+                        <h3>C Language</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$10.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/four.png" alt="book4">
+                    </div>
+                    <div class="content">
+                        <h3>React Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$22.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <div class="image">
+                        <img src="imgs/five.png" alt="book5">
+                    </div>
+                    <div class="content">
+                        <h3>Python Book </h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$25.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="image">
+                        <img src="imgs/six.png" alt="book6">
+                    </div>
+                    <div class="content">
+                        <h3>PHP Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$15.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/seven.png" alt="book7">
+                    </div>
+                    <div class="content">
+                        <h3>JS Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$30.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="image">
+                        <img src="imgs/eight.png" alt="book8">
+                    </div>
+                    <div class="content">
+                        <h3>HTML | CSS</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$24.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left"t>
+                    <div class="image">
+                        <img src="imgs/one.png" alt="book9">
+                    </div>
+                    <div class="content">
+                        <h3>C++ Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$24.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn" data-aos="fade-up">
+                <a href="#services" class="btn">More Books</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Books -->
+    <!-- Start Team -->
+    <div class="team" id="team">
+        <div class="text">
+            <h2>Our <span>Team</span></h2>
+        </div>
+        <div class="container">
+            <div class="box-holder">
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/a10.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Abdulrhman Mustafa</h2>
+                        <h4>Library Manager</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="image">
+                        <img src="imgs/mohamed.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Mohamed Soliman</h2>
+                        <h4>Technology Officer</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="image">
+                        <img src="imgs/mahmoud.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Mahmoud abdelrasol</h2>
+                        <h4>Library owner</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="image">
+                        <img src="imgs/ahmed m.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Ahmed Mahmoud</h2>
+                        <h4>Library Accountant</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/sobhy.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Mohamoud Sobhy</h2>
+                        <h4>Library Cataloging</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <div class="image">
+                        <img src="imgs/asharf.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Asharf Hossam</h2>
+                        <h4>Refernce specialist</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="image">
+                        <img src="imgs/sha.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Shaimaa Mohamed</h2>
+                        <h4>Archiving Officer</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/Zeze.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Zainab Badr</h2>
+                        <h4>Public Relations</h4>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="image">
+                        <img src="imgs/sameha.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Sameha Shawky</h2>
+                        <h4>Procurement Officer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Best-book -->
+    <div class="best-book">
+        <div class="container">
+            <div class="text" data-aos="fa-arrow-up">
+                <h1>Best selling <span>Books</span></h1>
+                <a href="#" class="btn">Buy Now <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+            <div class="box-holder">
+                <div class="box" data-aos="fade-right">
+                    <div class="image">
+                        <img src="imgs/one.png" alt="book1">
+                    </div>
+                    <div class="content">
+                        <h3>C++ Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$18.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-down">
+                    <div class="image">
+                        <img src="imgs/two.png" alt="book2">
+                    </div>
+                    <div class="content">
+                        <h3>AI Book</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$20.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="image">
+                        <img src="imgs/three.png" alt="book3">
+                    </div>
+                    <div class="content">
+                        <h3>C Language</h3>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <div class="price">
+                            <p>$10.00</p>
+                        </div>
+                        <div class="submit">
+                            <a href="#" class="btn">ADD TO CART</a>
+                            <a href="#" class="heart"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Best-book -->
+    <!-- End Team -->
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+        <div class="text" data-aos="fade-up">
+            <h2>Our <span>Testimonials</span></h2>
+        </div>
+        <div class="content swiper">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="thumbnail">
+                            <img src="imgs/te.jpg" alt="">
+                        </div>
+                        <div class="aside">
+                            <p>The books here are a real treasure! The content is precise and suitable for all levels.</p>
+                            <div class="name">
+                                <h4>Malak Mohamed</h4>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="thumbnail">
+                            <img src="imgs/te3.jpg" alt="">
+                        </div>
+                        <div class="aside">
+                            <p>The books here are a real treasure! The content is precise and suitable for all levels.</p>
+                            <div class="name">
+                                <h4>Ismail Gamal</h4>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="thumbnail">
+                            <img src="imgs/te4.jpg" alt="">
+                        </div>
+                        <div class="aside">
+                            <p>The books here are a real treasure! The content is precise and suitable for all levels.</p>
+                            <div class="name">
+                                <h4>Mustafa Asharf</h4>
+                                <p>Backend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="thumbnail">
+                            <img src="imgs/te7.jpg" alt="">
+                        </div>
+                        <div class="aside">
+                            <p>The books here are a real treasure! The content is precise and suitable for all levels.</p>
+                            <div class="name">
+                                <h4>Osama Saad</h4>
+                                <p>.Net Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start contact -->
+    <div class="contact" id="contact" data-aos="fade-up">
+        <div class="con" id="con">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Create Account</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registeration</span>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password">
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Sign In</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email password</span>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <textarea placeholder="Write Massage"></textarea>
+                    <a href="#">Forget Your Password?</a>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details to use all of site features</p>
+                        <button class="hidden" id="login">Sign In</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+    <!-- End contact -->
+    <!-- Start Icons -->
+            <div class="icons">
+            <div class="container">
+                <div class="box-holder">
+                    <div class="box" data-aos="fade-up">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h3>Free Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <i class="fa-solid fa-user-check"></i>
+                        <h3>100% secure payment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <i class="fa-solid fa-money-check"></i>
+                        <h3>Daily Offer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Quality guarantee</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Icons -->
+    <!-- Start image -->
+        <div class="insta">
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/one.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/two.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/three.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/four.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/five.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="imgs/six.png" alt="">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    <!-- End image -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <a href="#" class="logo">IT <span>Library</span></a>
+                <p class="text">
+                    Subscribe to our library to get updates about our grand offers.
+                </p>
+                <div class="links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick <span>Links</span></h3>
+            <div class="links">                        
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="box">
+                <h3>Help <span>Center</span></h3>
+                <div class="center">                        
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Our <span>Newsletter</span></h3>
+                <div class="text">
+                    <p>Subscribe to our library to get updates about our grand offers.</p>
+                    <div class="inp">
+                        <input type="email" placeholder="Enter Your Email Here">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cobyright">
+        <div class="container">
+            <p>© 2024 Waggy. All rights reserved.</p>
+            <p>Free HTML Template by <a href="#">TemplatesJungle</a> Distributed by <a href="#">ThemeWagon</a></p>
+        </div>
+        
+    </div>
+    <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
