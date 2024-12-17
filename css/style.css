@@ -16,6 +16,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #011932;    
+    overflow-x: hidden;
 }
 body.dark-mode {
     background-color: white;    
