@@ -16,10 +16,9 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #011932;    
+    overflow-x: hidden;
 }
-body.dark-mode {
-    background-color: white;    
-}
+
 #btn-scroll {
     width: 30px;
     height: 30px;
@@ -767,7 +766,7 @@ img {
     height: 180px; */
     position: absolute;
     top: -70px;
-    left: 57px;
+    left: 62px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -821,6 +820,12 @@ img {
         margin-left: 10px;
         margin-right: 10px;
     }
+    @media (max-width: 500px) {
+        .team .container .box-holder .box .image {
+            left: 65px;
+        }
+    }
+
 }
 /* End Responsive */
 /* End Team */
