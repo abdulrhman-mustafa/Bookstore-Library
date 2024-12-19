@@ -24,7 +24,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #011932;    
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #btn-scroll {
@@ -255,7 +255,7 @@ img {
 /* Start Home */
 .home {
     position: relative;
-    background: url('../imgs/bg2.jpg');
+    background: url('../imgs/bg2.webp');
     width: auto;
     height: 90vh;
     background-position: 100% 100%;
