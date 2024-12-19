@@ -21,7 +21,7 @@
     --main-color: #ff3150;  /*Logo Color For All Main*/
     --description-color:#c7c7c7;  /* description Color*/
 }
-body {
+body, html {
     font-family: "Roboto", sans-serif;
     background-color: #011932;    
     overflow-x: hidden;
