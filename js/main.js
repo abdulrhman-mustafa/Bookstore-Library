@@ -4,6 +4,11 @@ AOS.init({
     duration: 2000, // مدة التأثير (بالميلي ثانية)
     offset: 100,    // المسافة قبل ظهور العنصر
 });
+// ======================Loader=======================================
+window.addEventListener("load", function () {
+    const loader = document.getElementById("loader");
+    loader.style.display = "none"; // إخفاء الـ Loader
+});
 
 //======================== Swiper Testimonials او اللي بتخلي الاراء تتحرك يمين وشمال=====================
 
