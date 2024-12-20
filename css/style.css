@@ -851,7 +851,7 @@ img {
         }
         .books .container .box-holder .box {
             width: 320px;
-            margin: 0 auto;
+            margin: 10px;
         }
 }
 }
@@ -975,9 +975,8 @@ img {
 /* Start Responsive */
 @media (max-width: 767px) {
     .team .container .box-holder .box {
-        width: 95%;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 91%;
+        margin: 10px;
     }
     @media (max-width: 500px) {
         .team .container .box-holder .box .image {
@@ -1199,7 +1198,7 @@ img {
         }
         .best-book .container .box-holder .box {
             width: 320px;
-            margin: auto auto;
+            margin: 10px;
         }
 }
 }
