@@ -837,10 +837,9 @@ img {
         font-size: 40px;
     }
     .books .container .text a.btn {
-    padding: 15px 40px;
-        
+            padding: 15px 40px;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 390px) {
         .books .container .text {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -963,8 +962,7 @@ img {
     position: absolute;
     font-size: 50px;
     color: white;
-    /*visibility: hidden;
-    */opacity: 0;
+    opacity: 0;
     transition: var(--main-transition);
     -webkit-transition: var(--main-transition);
     -moz-transition: var(--main-transition);
@@ -1201,7 +1199,7 @@ img {
         }
         .best-book .container .box-holder .box {
             width: 320px;
-            margin: 0 auto;
+            margin: auto auto;
         }
 }
 }
@@ -1738,9 +1736,15 @@ img {
         margin-left: 15px;
         margin-right: 15px;
     }
+    .con form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0;
+    }
     @media (max-width:500px) {
         .con{
-            width: 95%;
+            width: 99%;
         }
     }
 }
