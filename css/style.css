@@ -850,10 +850,6 @@ img {
                 -ms-flex-direction: column;
                     flex-direction: column;
         }
-        .books .container .box-holder .box {
-            width: 95%;
-            margin: 0 auto;
-        }
 }
 }
 /* End Responsive Clothing */
@@ -882,8 +878,8 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     -webkit-column-gap: 50px;
-       -moz-column-gap: 50px;
-            column-gap: 50px;
+            -moz-column-gap: 50px;
+    column-gap: 50px;
     row-gap: 100px;
     position: relative;
 }
@@ -1201,10 +1197,6 @@ img {
         }
         .best-book .container .text a.btn {
             padding: 10px 20px;
-        }
-        .books .container .box-holder .box {
-            width: 95%;
-            margin: 0 auto;
         }
 }
 }
