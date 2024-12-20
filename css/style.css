@@ -850,6 +850,10 @@ img {
                 -ms-flex-direction: column;
                     flex-direction: column;
         }
+        .books .container .box-holder .box {
+            width: 320px;
+            margin: 0 auto;
+        }
 }
 }
 /* End Responsive Clothing */
@@ -886,14 +890,14 @@ img {
 .team .container .box-holder .box {
     background-color: white;
     border-radius: 30px;
-    width: 300px;
+    width: 280px;
     height: 250px;
     text-align: center;
-    /* color: var(--main-color); */
     position: relative;
     -webkit-transition: var(--main-transition);
     -o-transition: var(--main-transition);
     transition: var(--main-transition);
+    margin: 0 auto;
 }
 .team .container .box-holder .box:hover {
     -webkit-transform: translateY(15px);
@@ -902,10 +906,7 @@ img {
 }
 .team .container .box-holder .box .image {
     position: absolute;
-    /* background-color: white; */
     border-radius: 30px;
-    /* width: 180px;
-    height: 180px; */
     position: absolute;
     top: -70px;
     left: 62px;
@@ -1197,6 +1198,10 @@ img {
         }
         .best-book .container .text a.btn {
             padding: 10px 20px;
+        }
+        .best-book .container .box-holder .box {
+            width: 320px;
+            margin: 0 auto;
         }
 }
 }
@@ -1849,6 +1854,18 @@ img {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+.insta .image img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 @media (max-width: 400px) {
     .insta .image {
