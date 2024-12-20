@@ -975,7 +975,7 @@ img {
 /* Start Responsive */
 @media (max-width: 767px) {
     .team .container .box-holder .box {
-        width: 91%;
+        width: 92%;
         margin: 10px;
     }
     @media (max-width: 500px) {
