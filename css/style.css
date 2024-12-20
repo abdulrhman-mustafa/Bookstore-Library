@@ -1838,16 +1838,11 @@ img {
     position: absolute;
     font-size: 50px;
     color: white;
-    /*visibility: hidden;
-    */opacity: 0;
     transition: var(--main-transition);
     -webkit-transition: var(--main-transition);
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
     -o-transition: var(--main-transition);
-}
-.insta .image:hover svg {
-    opacity: 10;
 }
 .insta .image img {
     max-width: 100%;
